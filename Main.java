@@ -46,7 +46,6 @@ public class Main {
         public void search(){
             System.out.print("Enter you want to search: ");
             String search = in.nextLine();
-
             System.out.println("Search results:");
             for (ContactBook contact : newList) {
                 if (contact.getName().toLowerCase().contains(search.toLowerCase()) ||
