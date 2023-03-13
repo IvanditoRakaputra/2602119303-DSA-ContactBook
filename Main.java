@@ -6,16 +6,12 @@ public class Main {
             newList = new LinkedList<>();
         }
         public void add(){
-
             System.out.print("Enter first and last name: ");
             String name = in.nextLine();
-
             System.out.print("Enter an email address: ");
             String email = in.nextLine();
-
             System.out.print("Enter phone number: ");
             String number = in.nextLine();
-
             ContactBook contact = new ContactBook(name, email, number);
             newList.add(contact);
         }
